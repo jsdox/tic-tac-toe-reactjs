@@ -1383,7 +1383,7 @@ For more information see [Add Firebase to your JavaScript Project](https://fireb
 Open your `package.json` and add a `homepage` field:
 
 ```js
-  "homepage": "https://myusername.github.io/my-app",
+
 ```
 
 Create React App uses the `homepage` field to determine the root URL in the built HTML file.
@@ -1395,7 +1395,6 @@ Now, whenever you run `npm run build`, you will see a cheat sheet with instructi
 To publish it at [https://myusername.github.io/my-app](https://myusername.github.io/my-app), run:
 
 ```sh
-npm install --save-dev gh-pages
 ```
 
 Add the following scripts in your `package.json`:
